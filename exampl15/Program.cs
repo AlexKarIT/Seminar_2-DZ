@@ -8,7 +8,7 @@
 
 Console.WriteLine("Введите номер дня недели, а мы ответим выходной ли он...");
 int nDay = Convert.ToInt32(Console.ReadLine());
-if (nDay > 7)
+if (nDay > 7 || nDay < 1 )
 {
     Console.WriteLine("В неделе 7 дней... Введите число от 1 до 7");
 
