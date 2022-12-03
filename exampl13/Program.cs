@@ -8,7 +8,7 @@
 32679 -> 6
 */
 
-int number = new Random().Next(1, 10000000);
+int number = new Random().Next();
 Console.WriteLine("Сгенерированное число:" + number);
 
 if (number < 100)
